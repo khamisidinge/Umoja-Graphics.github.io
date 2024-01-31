@@ -1,0 +1,31 @@
+body{
+    background-image: url(image/img002.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%; /* Set the maximum width of the image to 100% of its container */
+    height: 600px;
+ }
+ h2{
+     color: blue;
+     text-align: center;
+     font-family: Algerian;
+ }
+ .image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column width as needed */
+  gap: 10px; /* Adjust the gap between images */
+}
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+ 
